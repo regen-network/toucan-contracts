@@ -391,7 +391,7 @@ contract CarbonOffsetBatches is
         address from,
         address to,
         uint256 tokenId
-    ) public virtual override {
+    ) public virtual override(IERC721Upgradeable, ERC721Upgradeable) {
         require(
             _isApprovedOrOwner(_msgSender(), tokenId),
             'ERC721: transfer caller is not owner nor approved'
