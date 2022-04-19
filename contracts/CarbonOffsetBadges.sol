@@ -11,7 +11,7 @@ import '@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol';
 import '@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol';
 import '@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol';
 
-import './IToucanContractRegistry.sol';
+import './interfaces/IToucanContractRegistry.sol';
 import './CarbonOffsetBadgesStorage.sol';
 import './CarbonProjects.sol';
 

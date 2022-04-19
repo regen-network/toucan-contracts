@@ -12,8 +12,8 @@ import '@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol';
 import '@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol';
 import '@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol';
 
-import './IToucanContractRegistry.sol';
-import './ICarbonOffsetBatches.sol';
+import './interfaces/IToucanContractRegistry.sol';
+import './interfaces/ICarbonOffsetBatches.sol';
 import './ToucanCarbonOffsetsFactory.sol';
 import './CarbonOffsetBatchesStorage.sol';
 import './libraries/ProjectVintageUtils.sol';

@@ -11,7 +11,7 @@ import '@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol';
 import '@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol';
 
 import './CarbonProjectsStorage.sol';
-import './ICarbonProjects.sol';
+import './interfaces/ICarbonProjects.sol';
 import './libraries/Modifiers.sol';
 
 /// @notice The CarbonProjects contract stores carbon project-specific data

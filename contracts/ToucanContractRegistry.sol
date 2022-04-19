@@ -13,7 +13,7 @@ import './CarbonProjectVintages.sol';
 import './CarbonProjects.sol';
 import './CarbonOffsetBatches.sol';
 import './ToucanCarbonOffsetsFactory.sol';
-import './IToucanContractRegistry.sol';
+import './interfaces/IToucanContractRegistry.sol';
 import './ToucanContractRegistryStorage.sol';
 
 /// @dev The ToucanContractRegistry is queried by other contracts for current addresses

@@ -7,7 +7,7 @@ pragma solidity ^0.8.0;
 
 import '@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol';
 
-import './IToucanContractRegistry.sol';
+import './interfaces/IToucanContractRegistry.sol';
 import './CarbonProjects.sol';
 
 contract CarbonOffsetBadgesStorage {
